@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <bysoft translate="label" module="bysoft_billingaddress">
+            <label>Bysoft</label>
+            <sort_order>11</sort_order>
+        </bysoft>
+    </tabs>
+    <sections>
+        <bysoft_invoiceinfo translate="label" module="invoicebill">
+            <class>separator-top</class>
+            <label>Invoice info</label>
+            <tab>bysoft</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>40</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <invoiceinfo translate="label">
+                    <label>Invoice content</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <invoiceinfo translate="label comment">
+                            <label>Invoice info</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </invoiceinfo>
+                    </fields>
+                </invoiceinfo>
+            </groups>
+        </bysoft_invoiceinfo>
+    </sections>
+</config>
